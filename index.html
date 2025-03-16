@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsHub</title>
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="main-nav container flex">
+            <a href="#" class="company-logo">
+                <img src="./assets/LOGO-2.png" alt="NewsHub">
+            </a>
+            <div class="nav-links">
+                <ul class="flex">
+                    <li class="hover-link nav-item" id="#ipl" onclick="onNavItemClick('topStories')">Home</li>
+                    <li class="hover-link nav-item" id="#finance" onclick="onNavItemClick('worldNews')">World News</li>
+                    <li class="hover-link nav-item" id="#politics" onclick="onNavItemClick('sportsNews')">Sports</li>
+                    <li class="hover-link nav-item" id="#techNews" onclick="onNavItemClick('techNews')">Technology</li>
+                    <li class="hover-link nav-item" id="#entNews" onclick="onNavItemClick('entertainNews')">Entertainment</li>
+                    <li class="hover-link nav-item" id="#moreNews" onclick="onNavItemClick('moreNews')">More articles</li>
+                </ul>
+            </div>
+            <div class="search-bar flex">
+                <input id="search-text" type="text" class="news-input" placeholder="e.g. Strike news">
+                <button id="search-button" class="search-button">Search</button>
+            </div>
+            <a href="form.html"><i>Sign out</i></a>
+        </div>
+        
+    </nav>
+
+    <main>
+        <section class="news-section" id="ipl">
+            <h2>Top Stories</h2><hr><br>
+            <div id="topStories" class="news-container">
+                <!-- Top stories will be injected here -->
+            </div>
+            <br>
+            <a href="https://punchng.com/">Read more...</a>
+        </section><hr><br>
+        <section class="news-section" id="finance">
+            <center><h2>World News</h2><hr><br></center>
+            <div id="worldNews" class="news-container">
+                <!-- World news will be injected here -->
+            </div>
+            <br>
+            <a href="https://punchng.com/">Read more...</a>
+        </section><hr><br>
+        <section class="news-section">
+            <center><h2>Sports</h2><hr><br></center>
+            <div id="sportsNews" class="news-container">
+                <!-- Sports news will be injected here -->
+            </div>
+            <br>
+            <a href="https://punchng.com/">Read more...</a>
+        </section><hr><br>
+        <section class="news-section">
+            <h2>Technology</h2><hr><br>
+            <div id="techNews" class="news-container">
+                <!-- Technology news will be injected here -->
+            </div>
+            <br>
+            <a href="https://punchng.com/">Read more...</a>
+        </section><hr><br>
+        <section class="news-section">
+            <h2>Others</h2><hr><br>
+            <div id="moreNews" class="news-container">
+                <!-- Technology news will be injected here -->
+            </div>
+            <br>
+            <a href="https://punchng.com/">Read more...</a>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+<hr><hr>
+<footer>
+    <div class="main-nav container flex">
+        <a href="#" class="company-logo">
+            <img src="./assets/LOGO-2.png" alt="NewsHub logo">
+        </a>
+        <div class="footer">
+        
+            <strong>&copy; NewsHub | Subscribe to our newsletter @ </strong><a href="mailto:newshub@gmail.com"><i>NewsHub@gmail.com</i></a>
+        </div>
+        
+    </div>
+    
+</footer>
+
+</html>
